@@ -33,6 +33,14 @@ body{
 
 #app {
   background-image: url('./assets/cold-bg.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s;
+}
+
+main{
+  min-width: 100vh;
+  padding: 25px;
 }
 </style>
     
